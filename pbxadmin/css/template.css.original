@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url("../../easypbx/vistas/nassets/imagenes/fondo.jpg");
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-color:#000;
+	
+	}
+
+#contenedor{
+  background-color: #7795A3;
+    background-image: url("../images/fnd_contenedor.jpg");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    border: 1px solid #7795A3;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: -15px -15px 15px #567E94 inset;
+    height: 770px;
+    margin: 30px auto 0;
+    width: 870px;
+	position: relative;
+	}
+	
+.cuadro{
+   background-image: url("../images/fnd_cuadro.jpg");
+    background-repeat: repeat-x;
+    border: 1px solid #2B4053;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 5px 5px 5px #2D4357 inset;
+    float: left;
+    height: 206px;
+    margin: 20px;
+    padding-top: 19px;
+    width: 218px;
+	position: relative;
+	}	
+	
+.cuadro_deshabilitado{
+ background-image: url("../images/fnd_cuadro.jpg");
+    background-repeat: repeat-x;
+    border: 1px solid #2B4053;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 5px 5px 5px #2D4357 inset;
+    float: left;
+    height: 225px;
+    margin: 20px;
+    opacity: 0.3;
+    position: relative;
+    width: 218px;
+	}	
+		
+	
+.cuadro:hover{
+   background-image: url("../images/fnd_cuadro02.jpg");
+    background-repeat: repeat-x;
+    border: 1px solid #425762;
+    border-radius: 200px;
+	opacity: 1;
+    box-shadow: 5px 5px 5px #fff inset;
+-webkid-transform:scale(1,2) totate(360deg); 
+    float: left;
+    height: 206px;
+    margin: 20px;
+    padding-top: 19px;
+    width: 218px;
+	position: relative;
+	}		
+	
+h2{
+ bottom: 0;
+    color: #FFFFFF;
+    font-family: trebuchet MS;
+    font-size: 27px;
+    font-weight: normal;
+    left: 21px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000000;
+	}		
+	
+.cuadros{
+	padding-left: 40px;
+	}	
+	
+.cerrar{
+	  background-image: url("../images/fnd_cerrar.jpg");
+    background-repeat: repeat-x;
+    border: 2px solid #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    color: #FFFFFF;
+    font-family: fantasy;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+    position: absolute;
+    right: 16px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    top: 1px;
+    width: 19px;
+	}
+	
+.cerrar:hover{
+	  background-color:#333;
+	  background-image:none;
+    background-repeat: repeat-x;
+    border: 2px solid #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    color: #FFFFFF;
+    font-family: fantasy;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+    position: absolute;
+    right: 16px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    top: 1px;
+    width: 19px;
+	}			

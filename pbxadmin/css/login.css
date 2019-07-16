@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../../easypbx/vistas/nassets/imagenes/fondo.jpg);
+	background-repeat:repeat-x;
+	}
+
+#contenedor{
+	margin: 150px auto 0;
+    width: 860px;
+	}
+	
+#logo{
+	color: #FFFFFF;
+    float: left;
+    font-family: arial;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 103px;
+	}	
+
+#login{
+  background-image: url("../images/fnd_login.jpg");
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #999999;
+    border-radius: 5px 5px 5px 5px;
+    border-right: 1px solid #999999;
+    box-shadow: -4px -4px 3px #CCCCCC inset;
+    float: left;
+    padding: 10px;
+    width: 205px;
+	}	
+	
+#login input.cuadro{
+	  background-image: url("../images/fnd_input.jpg");
+    background-repeat: repeat-x;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 1px #CCCCCC inset;
+    color: #666666;
+    font-family: monospace;
+    height: 28px;
+    padding-left: 6px;
+    width: 190px;
+	}	
+	
+#login input.boton{
+  background-color: #7AA7FF;
+    border: medium none;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 1px 1px 1px #377DFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: arial;
+    font-weight: bold;
+    height: 26px;
+    margin-top: 5px;
+	}		
+	

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../../easypbx/vistas/nassets/imagenes/fondo.jpg);
+	background-repeat:repeat-x;
+	background-position: center center;
+	background-color:#fff;
+	
+	}
+#formula textarea{
+ background-color: #000000;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+	
+	}
+	
+#formula{
+	color: #FFFFFF;
+    margin: 0 auto;
+    width: 883px;
+	}	
+	
+#formula select{
+	background-color:#000;
+	color:#fff;
+	}	
